@@ -19,7 +19,9 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+//
+        //
+        // s__ filho da puta desgraçado puita merda vai tomar no cu
         Spinner spinner = (Spinner) findViewById(R.id.unit_spinner);
         // Create an ArrayAdapter using the string array and a default spinner layout
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
