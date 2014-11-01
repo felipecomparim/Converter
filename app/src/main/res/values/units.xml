@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="units_array">
-          <item>g</item>
-          <item>kg</item>
-          <item>tsp</item>
-          <item>tbsp</item>
+        <item>tsp</item>
+        <item>tbsp</item>
+        <item>cup</item>
+        <item>oz</item>
+        <item>pint</item>
+        <item>quart</item>
+        <item>gallon</item>
+        <item>mg</item>
+        <item>pound</item>
+        <item>ml</item>
+        <item>kg</item>
+        <item>liter</item>
     </string-array>
 </resources>

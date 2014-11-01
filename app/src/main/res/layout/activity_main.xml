@@ -33,7 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="numberDecimal"
-            android:id="@+id/val_edit_text"
+            android:id="@+id/input_edit_text"
             android:text="1"
             />
         <Spinner
@@ -54,45 +54,16 @@
 
         <TextView android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="kg:  "
-            android:textSize="17sp"
-            android:id="@+id/kg_text_view"
-            />
-
-        <TextView android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="0.001"
-            android:id="@+id/kg_val_text_view"
-            android:textSize="17sp"
-            />
-
-        <TextView android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="g: "
-            android:textSize="17sp"
-            android:id="@+id/g_text_view"
-            />
-
-        <TextView android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="1"
-            android:textSize="17sp"
-            android:id="@+id/g_val_text_view"
-            />
-
-
-        <TextView android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="tsp: "
+            android:text="tsp:  "
             android:textSize="17sp"
             android:id="@+id/tsp_text_view"
             />
 
         <TextView android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="0.211"
-            android:textSize="17sp"
+            android:text="1"
             android:id="@+id/tsp_val_text_view"
+            android:textSize="17sp"
             />
 
         <TextView android:layout_height="wrap_content"
@@ -104,10 +75,154 @@
 
         <TextView android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="0.0666"
+            android:text="0.3333"
             android:textSize="17sp"
             android:id="@+id/tbsp_val_text_view"
             />
+
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="cup: "
+            android:textSize="17sp"
+            android:id="@+id/cup_text_view"
+            />
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="0.208d"
+            android:textSize="17sp"
+            android:id="@+id/cup_val_text_view"
+            />
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="oz: "
+            android:textSize="17sp"
+            android:id="@+id/oz_text_view"
+            />
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="0.1666"
+            android:textSize="17sp"
+            android:id="@+id/oz_val_text_view"
+            />
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="pint: "
+            android:textSize="17sp"
+            android:id="@+id/pint_text_view"
+            />
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="0.0104"
+            android:textSize="17sp"
+            android:id="@+id/pint_val_text_view"
+            />
+
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="quart: "
+            android:textSize="17sp"
+            android:id="@+id/quart_text_view"
+            />
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="0.0041"
+            android:textSize="17sp"
+            android:id="@+id/quart_val_text_view"
+            />
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="gallon: "
+            android:textSize="17sp"
+            android:id="@+id/gallon_text_view"
+            />
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="0.0013"
+            android:textSize="17sp"
+            android:id="@+id/gallon_val_text_view"
+            />
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="pound: "
+            android:textSize="17sp"
+            android:id="@+id/pound_text_view"
+            />
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="0.0125"
+            android:textSize="17sp"
+            android:id="@+id/pound_val_text_view"
+            />
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="ml: "
+            android:textSize="17sp"
+            android:id="@+id/ml_text_view"
+            />
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="4.9289"
+            android:textSize="17sp"
+            android:id="@+id/ml_val_text_view"
+            />
+
+
+               <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="liter: "
+            android:textSize="17sp"
+            android:id="@+id/liter_text_view"
+            />
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="0.0049"
+            android:textSize="17sp"
+            android:id="@+id/liter_val_text_view"
+            />
+
+        <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="mg: "
+        android:textSize="17sp"
+        android:id="@+id/mg_text_view"
+        />
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="5687.5"
+            android:textSize="17sp"
+            android:id="@+id/mg_val_text_view"
+            />
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="kg: "
+            android:textSize="17sp"
+            android:id="@+id/kg_text_view"
+            />
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="0.0057"
+            android:textSize="17sp"
+            android:id="@+id/kg_val_text_view"
+            />
+
 
 
     </GridLayout>
